@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastel Arcade - Leaderboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Lobby</a>
+        <a href="game.html">Play Game</a>
+        <a href="leaderboard.html" class="active">Leaderboard</a>
+    </nav>
+
+    <main class="container">
+        <section class="about-box">
+            <h2>🏆 Hall of Fame</h2>
+            <p>The highest records currently logged in this arcade session.</p>
+            
+            <div class="tech-table-wrapper">
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Player Name</th>
+                            <th>Score Achieved</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leaderboard-body">
+                        <tr>
+                            <td>1st</td>
+                            <td>Player One</td>
+                            <td>25 pts</td>
+                        </tr>
+                        <tr>
+                            <td>2nd</td>
+                            <td>Guest Gamer</td>
+                            <td>18 pts</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

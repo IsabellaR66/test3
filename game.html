@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastel Arcade - Play</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Lobby</a>
+        <a href="game.html" class="active">Play Game</a>
+        <a href="leaderboard.html">Leaderboard</a>
+    </nav>
+
+    <main class="container">
+        <div class="game-box">
+            <h2>⭐ Catch the Stars! ⭐</h2>
+            <p>Move your mouse inside the box to control the pink basket. Catch the yellow stars!</p>
+            
+            <div class="score-board">
+                <span>Score: <strong id="score-val">0</strong></span>
+                <span>Time Left: <strong id="time-val">30</strong>s</span>
+            </div>
+
+            <!-- The Game Window -->
+            <div id="game-area">
+                <div id="basket"></div>
+                <div id="star"></div>
+            </div>
+
+            <button id="start-game-btn">Start Game</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
